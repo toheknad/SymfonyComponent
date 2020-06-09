@@ -1,0 +1,4 @@
+api/vendor
+api/var/
+api/data/migrations/
+api/composer.lock

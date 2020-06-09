@@ -1,0 +1,9 @@
+generate:
+    path: /product/generate
+    controller: App\Http\ProductController::generateAction
+create:
+    path: /order/create
+    controller: App\Http\OrderController::createAction
+payment:
+    path: /order/payment
+    controller: App\Http\OrderController::paymentAction
