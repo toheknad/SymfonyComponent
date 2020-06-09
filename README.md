@@ -11,7 +11,7 @@
 Инициализация проекта:
 1) docker-compose up --build -d
 2) docker-compose exec php-cli composer install
-3) docker-compose exec bash ( дальше в консоле контейнера)
+3) docker-compose exec php-fpm bash ( дальше в консоле контейнера)
   3.1) php bin/console.php diff
   3.2) php bin/console.php migrate
   3.3) В Adminere создаем БД "doctrine" - по ссылке localhost:8080
